@@ -1,0 +1,91 @@
+.homecontainer {
+  margin-top: 20px;
+}
+span {
+  font-weight: bolder;
+}
+.encryption,
+.decryption {
+  display: flex;
+  flex-direction: column;
+}
+.enc {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.whatisenc,
+.whatisdec {
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.encimages {
+  width: 50%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.enctext,
+.dectext {
+  text-align: justify;
+  font-weight: 300;
+}
+.dec {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.types {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.buttton {
+  text-align: center;
+  width: 50%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(130, 14, 239);
+  text-decoration: none;
+}
+.buttton:hover {
+  background-color: transparent;
+  color: black;
+}
+.butcontent {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 850px) {
+  .homecontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .types {
+    flex-direction: column;
+  }
+  .buttton {
+    width: 100%;
+  }
+  .enc {
+    flex-direction: column;
+  }
+  .enctheory {
+    flex-direction: column;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .encimages {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .dec {
+    font-size: 15px;
+    text-align: justify;
+    flex-direction: column-reverse;
+  }
+}

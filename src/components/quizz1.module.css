@@ -1,0 +1,95 @@
+.quizz {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.quizzhead {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.quizzbody {
+  margin-top: 20px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.question {
+  text-align: justify;
+}
+.questionno {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.answers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.answer {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.answer:hover {
+  background-color: greenyellow;
+}
+.scorecard {
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid black;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.takeagain {
+  margin-top: 10px;
+  background-color: green;
+  width: 100px;
+  height: fit-content;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.takeagain:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
+@media only screen and (max-width: 850px) {
+  .quizz {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .quizzhead {
+    font-weight: bolder;
+    font-size: medium;
+  }
+  .quizzbody {
+    display: flex;
+    flex-direction: column;
+  }
+  .answers {
+    display: flex;
+    flex-direction: column;
+  }
+  .scorecard {
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .score {
+    margin-top: 10px;
+  }
+  .takeagain {
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+  }
+}

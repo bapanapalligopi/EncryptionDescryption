@@ -1,0 +1,144 @@
+.caesarcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.definitionimage {
+  display: flex;
+  flex-direction: column;
+}
+.def,
+.algohead,
+.example,
+.rulescontent {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 20px;
+  /* border-bottom: 2px solid black; */
+}
+.defcontent {
+  margin-top: 10px;
+  text-align: justify;
+}
+.image {
+  text-align: center;
+  margin-top: 30px;
+}
+.images {
+  padding: 10px;
+  border: 2px solid black;
+}
+.algorithm {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps {
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px 4px rgb(111, 111, 111);
+}
+.imgex1 {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.examples {
+  display: flex;
+  flex-direction: column;
+}
+.advcontent,
+.discontent {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.advpoints,
+.dispoints,
+.rulespoints {
+  margin-top: 20px;
+}
+.usecipher {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.useencrypt {
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input {
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+}
+.encryptbut {
+  font-weight: bolder;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: green;
+}
+.encryptbut:hover {
+  background-color: transparent;
+}
+.result {
+  font-weight: bolder;
+}
+.gohome {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gotohome {
+  text-decoration: none;
+  text-align: center;
+  background-color: greenyellow;
+
+  border-radius: 10px;
+}
+@media only screen and (max-width: 850px) {
+  .images {
+    width: 100%;
+  }
+  .def,
+  .algohead,
+  .rulescontent {
+    margin-top: 4px;
+    font-size: medium;
+    text-align: justify;
+  }
+  .defcontent {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .steps {
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 3px rgb(111, 111, 111);
+  }
+  .advcontent,
+  .discontent {
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: medium;
+  }
+  .advpoints,
+  .dispoints,
+  .rulespoints,
+  .example {
+    margin-top: 10px;
+    font-size: medium;
+    text-align: justify;
+  }
+  .usecipher {
+    flex-direction: column;
+  }
+  .useencrypt {
+    width: 100%;
+  }
+}
